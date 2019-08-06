@@ -152,10 +152,16 @@ function show_info()
     <div style="color:blue">
         <h2 style="font-family:KaiTi">群英会欢迎您的加入！</h2>
     </div>
+    <br>
     <div style="color:yellow">
-        <h2 style="font-family:Comic Sans MS">Ziyan Zhang</h2>
+        <h2 style="font-family:KaiTi">群英会主页建设中！</h2>
     </div>
     <h2 style="font-family:Comic Sans MS"><a href="http://qya-beta.github.io/announcements">Read the announcement on this web!</a></h2>
+    <h4 style="font-family:STXinWei" align="center">目前时间</h4>
+    <h4 style="font-family:STXinWei" align="center"><span id="cg">2016/12/21 上午12:00:00</span></h4>
+    <script>
+    setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
+    </script>
     <input style="font-family:Comic Sans MS" type="button" onclick="show_info()" value="WELCOME" />
 <div class="ui inverted vertical footer segment">
             <div class="ui container">
